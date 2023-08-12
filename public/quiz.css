@@ -1,0 +1,120 @@
+#first{
+    margin-top: 6rem;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(46, 43, 233),rgb(19, 195, 248));
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+#st_btn{
+    padding: 2.5px;
+    text-align: center;
+    margin-top: 2em;
+}
+#st_btn:hover{
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+#questions{
+    display: none;
+    background: none;
+    padding: 0;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+}
+
+.jumbotron{
+    padding: 0;
+    border-radius: 0.8em 0.8rem 0rem 0rem;
+}
+
+.centered{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-5%);
+}
+.head{
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    background-color: blue;
+    padding: .5em;
+    margin-bottom: 1em;
+    color: white;
+    font-size: 20px;
+}
+#bton{
+    text-align: center;
+    margin-left: 40%;
+    padding: 7px 20px;
+    margin-top: 2em;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 2rem;
+}
+#bton:hover{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input{
+    margin: 10px 20px;
+}
+
+.option{
+    background-color: transparent;
+}
+
+.card{
+    margin: auto;
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    border: none;
+}
+i{
+    color: green;
+    font-size: 80px;
+}
+#Result, #hide_res, #hid_ques, #authseen{
+    display: none;
+}
+
+.auth{
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 0 5px 5px 0 black;
+    width: 70%;
+}
+
+#logout{
+    text-align: right;
+}
+
+.col-right{
+    text-align: right;
+}
+
+.row{
+    margin-top: 0;
+    margin-bottom: 35px;
+}
